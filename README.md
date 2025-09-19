@@ -4,10 +4,14 @@ This repository contains my work for the **Web Development course**.
 The blog serves as a collection of assignments, projects, and learning exercises completed throughout the semester.
 
 Each assignment is structured as a self-contained webpage, but they all live in this repo (and are linked together in the blog’s navigation).
+**Click on the 'Notes' tab in the navigation bar, and you will land on the page where I have showcased the extra demo tasks assigned for Assignment 1.**
+**Click on the 'Boston Stays' tab in the navigation bar, and you will land on the page where the tasks for Assignment 2 are done.**
 
 Deployed on **GitHub Pages** for easy access.
 
-👉 [Visit the Blog](https://piriyajeishree410.github.io/)
+👉 [Visit the Blog Homepage](https://piriyajeishree410.github.io/)
+👉 [Notes Page](https://piriyajeishree410.github.io/notes.html)
+👉 [Airbnb Listings Page](https://piriyajeishree410.github.io/airbnb.html)
 
 ---
 
@@ -34,7 +38,8 @@ Deployed on **GitHub Pages** for easy access.
 
 ### Assignment 2: Airbnb Listings Demo Page
 
-This assignment was about working with **AJAX, JSON, and dynamic content rendering with JavaScript**.
+This assignment was about working with AJAX, JSON, and dynamic content rendering with JavaScript.
+**Click on the 'Boston Stays' tab in the navigation bar, and you will land on this page.**
 I repurposed the [Airbnb Listings Demo Project](https://github.com/john-guerra/Airbnb_Listings_demo_page) and customized it to meet all assignment requirements.
 
 #### Features
@@ -70,7 +75,7 @@ I repurposed the [Airbnb Listings Demo Project](https://github.com/john-guerra/A
 
 #### Live Demo
 
-👉 [Airbnb Listings Page](https://piriyajeishree410.github.io/)
+👉 [Airbnb Listings Page](https://piriyajeishree410.github.io/airbnb.html)
 
 ---
 
@@ -78,7 +83,9 @@ I repurposed the [Airbnb Listings Demo Project](https://github.com/john-guerra/A
 
 ```
 .
-├── index.html               # Blog homepage (contains assignment 1+2 HTML and JS script along with the styles)
+├── index.html               # Blog homepage (contains the homepage)
+├── airbnb.html              # Assignment 2 (Airbnb listings JS script)
+├── notes.html               # Assignment 1 (Demo tasks)
 │   └── data/
 │       └── airbnb_listings.json
 └── README.md                 # Documentation (this file)
@@ -95,10 +102,6 @@ I repurposed the [Airbnb Listings Demo Project](https://github.com/john-guerra/A
 * Git & GitHub Pages
 
 ---
-
-## Future work
-
-I will try to create separate pages for each assignment so that everything is not listed on the homepage.
 
 ## Credits
 
