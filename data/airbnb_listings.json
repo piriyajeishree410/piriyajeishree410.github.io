@@ -1,0 +1,905 @@
+[
+  {
+    "name": "Charming Apt in Beacon Hill #1",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pet Friendly",
+      "Hot Tub",
+      "Heating",
+      "Wi-Fi",
+      "TV",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_658",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=68"
+    },
+    "price": 194,
+    "thumbnail_url": "https://picsum.photos/300/200?random=1",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Back Bay #2",
+    "description": "A comfy place in Back Bay, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Wi-Fi",
+      "Pool",
+      "Essentials",
+      "Gym",
+      "Smoke Alarm",
+      "Washer",
+      "Kitchen"
+    ],
+    "host": {
+      "host_name": "Host_171",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=19"
+    },
+    "price": 153,
+    "thumbnail_url": "https://picsum.photos/300/200?random=2",
+    "rating": 4.5
+  },
+  {
+    "name": "Charming Apt in South End #3",
+    "description": "A comfy place in South End, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Kitchen",
+      "Parking",
+      "Air Conditioning",
+      "Washer",
+      "Smoke Alarm",
+      "Hot Tub",
+      "Wi-Fi"
+    ],
+    "host": {
+      "host_name": "Host_409",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=57"
+    },
+    "price": 97,
+    "thumbnail_url": "https://picsum.photos/300/200?random=3",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Jamaica Plain #4",
+    "description": "A comfy place in Jamaica Plain, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Essentials",
+      "Washer",
+      "Heating"
+    ],
+    "host": {
+      "host_name": "Host_481",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=45"
+    },
+    "price": 217,
+    "thumbnail_url": "https://picsum.photos/300/200?random=4",
+    "rating": 4.7
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #5",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Heating",
+      "TV",
+      "Essentials"
+    ],
+    "host": {
+      "host_name": "Host_568",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=14"
+    },
+    "price": 341,
+    "thumbnail_url": "https://picsum.photos/300/200?random=5",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #6",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Heating",
+      "Essentials",
+      "TV",
+      "Dryer",
+      "Pet Friendly",
+      "Hot Tub"
+    ],
+    "host": {
+      "host_name": "Host_645",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=22"
+    },
+    "price": 236,
+    "thumbnail_url": "https://picsum.photos/300/200?random=6",
+    "rating": 4.1
+  },
+  {
+    "name": "Charming Apt in Cambridge #7",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "Kitchen",
+      "Wi-Fi",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_188",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=70"
+    },
+    "price": 287,
+    "thumbnail_url": "https://picsum.photos/300/200?random=7",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Fenway #8",
+    "description": "A comfy place in Fenway, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Heating",
+      "Kitchen",
+      "Pool"
+    ],
+    "host": {
+      "host_name": "Host_531",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=58"
+    },
+    "price": 178,
+    "thumbnail_url": "https://picsum.photos/300/200?random=8",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #9",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Wi-Fi",
+      "Gym",
+      "Elevator",
+      "Essentials",
+      "Smoke Alarm",
+      "Parking"
+    ],
+    "host": {
+      "host_name": "Host_789",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=31"
+    },
+    "price": 350,
+    "thumbnail_url": "https://picsum.photos/300/200?random=9",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in Jamaica Plain #10",
+    "description": "A comfy place in Jamaica Plain, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pet Friendly",
+      "Elevator",
+      "Kitchen",
+      "Pool"
+    ],
+    "host": {
+      "host_name": "Host_649",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=48"
+    },
+    "price": 347,
+    "thumbnail_url": "https://picsum.photos/300/200?random=10",
+    "rating": 4.6
+  },
+  {
+    "name": "Charming Apt in Jamaica Plain #11",
+    "description": "A comfy place in Jamaica Plain, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Parking",
+      "Hot Tub",
+      "Dryer",
+      "Pet Friendly",
+      "Heating",
+      "Washer"
+    ],
+    "host": {
+      "host_name": "Host_193",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=17"
+    },
+    "price": 121,
+    "thumbnail_url": "https://picsum.photos/300/200?random=11",
+    "rating": 4.7
+  },
+  {
+    "name": "Charming Apt in Jamaica Plain #12",
+    "description": "A comfy place in Jamaica Plain, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Smoke Alarm",
+      "Heating",
+      "Kitchen",
+      "Essentials",
+      "Parking"
+    ],
+    "host": {
+      "host_name": "Host_416",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=56"
+    },
+    "price": 265,
+    "thumbnail_url": "https://picsum.photos/300/200?random=12",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Allston #13",
+    "description": "A comfy place in Allston, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Essentials",
+      "Parking",
+      "Air Conditioning",
+      "Elevator",
+      "Wi-Fi",
+      "Smoke Alarm"
+    ],
+    "host": {
+      "host_name": "Host_199",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=52"
+    },
+    "price": 163,
+    "thumbnail_url": "https://picsum.photos/300/200?random=13",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in North End #14",
+    "description": "A comfy place in North End, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Smoke Alarm",
+      "Pool",
+      "Kitchen"
+    ],
+    "host": {
+      "host_name": "Host_419",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=41"
+    },
+    "price": 192,
+    "thumbnail_url": "https://picsum.photos/300/200?random=14",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in South End #15",
+    "description": "A comfy place in South End, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pool",
+      "Wi-Fi",
+      "Air Conditioning",
+      "Parking",
+      "Washer",
+      "Heating"
+    ],
+    "host": {
+      "host_name": "Host_32",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=14"
+    },
+    "price": 193,
+    "thumbnail_url": "https://picsum.photos/300/200?random=15",
+    "rating": 4.8
+  },
+  {
+    "name": "Charming Apt in Allston #16",
+    "description": "A comfy place in Allston, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Air Conditioning",
+      "Pool",
+      "Hot Tub",
+      "Wi-Fi"
+    ],
+    "host": {
+      "host_name": "Host_651",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=32"
+    },
+    "price": 246,
+    "thumbnail_url": "https://picsum.photos/300/200?random=16",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in Seaport #17",
+    "description": "A comfy place in Seaport, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Elevator",
+      "Smoke Alarm",
+      "Hot Tub",
+      "Kitchen",
+      "Parking",
+      "Gym",
+      "Pet Friendly"
+    ],
+    "host": {
+      "host_name": "Host_644",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=63"
+    },
+    "price": 332,
+    "thumbnail_url": "https://picsum.photos/300/200?random=17",
+    "rating": 4.1
+  },
+  {
+    "name": "Charming Apt in Cambridge #18",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Washer",
+      "Gym",
+      "Kitchen",
+      "Air Conditioning",
+      "Dryer",
+      "Smoke Alarm",
+      "Parking"
+    ],
+    "host": {
+      "host_name": "Host_906",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=19"
+    },
+    "price": 281,
+    "thumbnail_url": "https://picsum.photos/300/200?random=18",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in Seaport #19",
+    "description": "A comfy place in Seaport, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Elevator",
+      "Pool",
+      "Dryer",
+      "Wi-Fi",
+      "Kitchen"
+    ],
+    "host": {
+      "host_name": "Host_312",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=25"
+    },
+    "price": 174,
+    "thumbnail_url": "https://picsum.photos/300/200?random=19",
+    "rating": 4.7
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #20",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pet Friendly",
+      "Kitchen",
+      "Essentials",
+      "Dryer",
+      "Pool"
+    ],
+    "host": {
+      "host_name": "Host_192",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=1"
+    },
+    "price": 227,
+    "thumbnail_url": "https://picsum.photos/300/200?random=20",
+    "rating": 4.6
+  },
+  {
+    "name": "Charming Apt in Fenway #21",
+    "description": "A comfy place in Fenway, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Smoke Alarm",
+      "Heating",
+      "Pet Friendly"
+    ],
+    "host": {
+      "host_name": "Host_803",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=1"
+    },
+    "price": 149,
+    "thumbnail_url": "https://picsum.photos/300/200?random=21",
+    "rating": 4.3
+  },
+  {
+    "name": "Charming Apt in Cambridge #22",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pool",
+      "Washer",
+      "Hot Tub"
+    ],
+    "host": {
+      "host_name": "Host_714",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=21"
+    },
+    "price": 192,
+    "thumbnail_url": "https://picsum.photos/300/200?random=22",
+    "rating": 4.7
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #23",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "Heating",
+      "Elevator",
+      "Parking"
+    ],
+    "host": {
+      "host_name": "Host_453",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=33"
+    },
+    "price": 139,
+    "thumbnail_url": "https://picsum.photos/300/200?random=23",
+    "rating": 4.3
+  },
+  {
+    "name": "Charming Apt in Back Bay #24",
+    "description": "A comfy place in Back Bay, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Washer",
+      "Hot Tub",
+      "Elevator"
+    ],
+    "host": {
+      "host_name": "Host_806",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=40"
+    },
+    "price": 303,
+    "thumbnail_url": "https://picsum.photos/300/200?random=24",
+    "rating": 4.3
+  },
+  {
+    "name": "Charming Apt in Back Bay #25",
+    "description": "A comfy place in Back Bay, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Dryer",
+      "Heating",
+      "Pool",
+      "Kitchen",
+      "Essentials",
+      "Pet Friendly",
+      "Hot Tub"
+    ],
+    "host": {
+      "host_name": "Host_962",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=22"
+    },
+    "price": 182,
+    "thumbnail_url": "https://picsum.photos/300/200?random=25",
+    "rating": 4.1
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #26",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pet Friendly",
+      "Pool",
+      "Air Conditioning",
+      "Smoke Alarm",
+      "Washer"
+    ],
+    "host": {
+      "host_name": "Host_407",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=46"
+    },
+    "price": 163,
+    "thumbnail_url": "https://picsum.photos/300/200?random=26",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Back Bay #27",
+    "description": "A comfy place in Back Bay, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Essentials",
+      "Elevator",
+      "Kitchen",
+      "Heating",
+      "Air Conditioning",
+      "Smoke Alarm"
+    ],
+    "host": {
+      "host_name": "Host_440",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=59"
+    },
+    "price": 345,
+    "thumbnail_url": "https://picsum.photos/300/200?random=27",
+    "rating": 4.3
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #28",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Air Conditioning",
+      "Pet Friendly",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_106",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=49"
+    },
+    "price": 290,
+    "thumbnail_url": "https://picsum.photos/300/200?random=28",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Seaport #29",
+    "description": "A comfy place in Seaport, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Gym",
+      "Hot Tub",
+      "Washer",
+      "Heating",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_578",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=42"
+    },
+    "price": 182,
+    "thumbnail_url": "https://picsum.photos/300/200?random=29",
+    "rating": 4.3
+  },
+  {
+    "name": "Charming Apt in Cambridge #30",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pet Friendly",
+      "Wi-Fi",
+      "Elevator"
+    ],
+    "host": {
+      "host_name": "Host_30",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=4"
+    },
+    "price": 251,
+    "thumbnail_url": "https://picsum.photos/300/200?random=30",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Fenway #31",
+    "description": "A comfy place in Fenway, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Pool",
+      "Heating",
+      "Smoke Alarm",
+      "Hot Tub",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_887",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=22"
+    },
+    "price": 170,
+    "thumbnail_url": "https://picsum.photos/300/200?random=31",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in Back Bay #32",
+    "description": "A comfy place in Back Bay, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Air Conditioning",
+      "Gym",
+      "TV",
+      "Essentials",
+      "Elevator"
+    ],
+    "host": {
+      "host_name": "Host_915",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=38"
+    },
+    "price": 317,
+    "thumbnail_url": "https://picsum.photos/300/200?random=32",
+    "rating": 4.6
+  },
+  {
+    "name": "Charming Apt in Cambridge #33",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Kitchen",
+      "Pool",
+      "Essentials",
+      "Parking",
+      "Gym"
+    ],
+    "host": {
+      "host_name": "Host_594",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=66"
+    },
+    "price": 291,
+    "thumbnail_url": "https://picsum.photos/300/200?random=33",
+    "rating": 4.2
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #34",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "Washer",
+      "Essentials",
+      "Wi-Fi",
+      "Elevator",
+      "Pool",
+      "Gym"
+    ],
+    "host": {
+      "host_name": "Host_561",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=40"
+    },
+    "price": 144,
+    "thumbnail_url": "https://picsum.photos/300/200?random=34",
+    "rating": 4.5
+  },
+  {
+    "name": "Charming Apt in Cambridge #35",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Parking",
+      "Hot Tub",
+      "TV",
+      "Essentials"
+    ],
+    "host": {
+      "host_name": "Host_683",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=43"
+    },
+    "price": 93,
+    "thumbnail_url": "https://picsum.photos/300/200?random=35",
+    "rating": 4.8
+  },
+  {
+    "name": "Charming Apt in South End #36",
+    "description": "A comfy place in South End, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "TV",
+      "Washer",
+      "Smoke Alarm",
+      "Parking",
+      "Kitchen",
+      "Air Conditioning"
+    ],
+    "host": {
+      "host_name": "Host_242",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=43"
+    },
+    "price": 290,
+    "thumbnail_url": "https://picsum.photos/300/200?random=36",
+    "rating": 5.0
+  },
+  {
+    "name": "Charming Apt in Charlestown #37",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Gym",
+      "Essentials",
+      "Hot Tub",
+      "TV",
+      "Heating"
+    ],
+    "host": {
+      "host_name": "Host_755",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=39"
+    },
+    "price": 310,
+    "thumbnail_url": "https://picsum.photos/300/200?random=37",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Charlestown #38",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Kitchen",
+      "Hot Tub",
+      "Air Conditioning",
+      "Wi-Fi",
+      "Pool",
+      "TV",
+      "Essentials"
+    ],
+    "host": {
+      "host_name": "Host_142",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=11"
+    },
+    "price": 251,
+    "thumbnail_url": "https://picsum.photos/300/200?random=38",
+    "rating": 4.4
+  },
+  {
+    "name": "Charming Apt in Charlestown #39",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Heating",
+      "Parking",
+      "Kitchen",
+      "Washer",
+      "Smoke Alarm",
+      "Gym",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_337",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=60"
+    },
+    "price": 184,
+    "thumbnail_url": "https://picsum.photos/300/200?random=39",
+    "rating": 4.0
+  },
+  {
+    "name": "Charming Apt in Charlestown #40",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Wi-Fi",
+      "Hot Tub",
+      "Washer"
+    ],
+    "host": {
+      "host_name": "Host_949",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=42"
+    },
+    "price": 127,
+    "thumbnail_url": "https://picsum.photos/300/200?random=40",
+    "rating": 4.4
+  },
+  {
+    "name": "Charming Apt in Jamaica Plain #41",
+    "description": "A comfy place in Jamaica Plain, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Gym",
+      "Wi-Fi",
+      "Kitchen",
+      "Hot Tub",
+      "Pool"
+    ],
+    "host": {
+      "host_name": "Host_644",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=65"
+    },
+    "price": 226,
+    "thumbnail_url": "https://picsum.photos/300/200?random=41",
+    "rating": 4.5
+  },
+  {
+    "name": "Charming Apt in Charlestown #42",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Air Conditioning",
+      "TV",
+      "Essentials",
+      "Dryer",
+      "Heating"
+    ],
+    "host": {
+      "host_name": "Host_634",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=39"
+    },
+    "price": 299,
+    "thumbnail_url": "https://picsum.photos/300/200?random=42",
+    "rating": 4.5
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #43",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Smoke Alarm",
+      "Pool",
+      "Dryer"
+    ],
+    "host": {
+      "host_name": "Host_952",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=68"
+    },
+    "price": 111,
+    "thumbnail_url": "https://picsum.photos/300/200?random=43",
+    "rating": 4.5
+  },
+  {
+    "name": "Charming Apt in Fenway #44",
+    "description": "A comfy place in Fenway, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "TV",
+      "Kitchen",
+      "Smoke Alarm"
+    ],
+    "host": {
+      "host_name": "Host_626",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=11"
+    },
+    "price": 338,
+    "thumbnail_url": "https://picsum.photos/300/200?random=44",
+    "rating": 4.8
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #45",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Elevator",
+      "Pool",
+      "Parking",
+      "Heating",
+      "Pet Friendly",
+      "Hot Tub",
+      "Essentials"
+    ],
+    "host": {
+      "host_name": "Host_682",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=46"
+    },
+    "price": 292,
+    "thumbnail_url": "https://picsum.photos/300/200?random=45",
+    "rating": 4.6
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #46",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Essentials",
+      "Kitchen",
+      "Pool"
+    ],
+    "host": {
+      "host_name": "Host_486",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=23"
+    },
+    "price": 172,
+    "thumbnail_url": "https://picsum.photos/300/200?random=46",
+    "rating": 4.0
+  },
+  {
+    "name": "Charming Apt in Cambridge #47",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "Pool",
+      "Elevator",
+      "Dryer",
+      "Gym",
+      "Pet Friendly",
+      "Parking"
+    ],
+    "host": {
+      "host_name": "Host_84",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=49"
+    },
+    "price": 107,
+    "thumbnail_url": "https://picsum.photos/300/200?random=47",
+    "rating": 4.7
+  },
+  {
+    "name": "Charming Apt in Cambridge #48",
+    "description": "A comfy place in Cambridge, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Dryer",
+      "Pet Friendly",
+      "Kitchen",
+      "Smoke Alarm",
+      "TV",
+      "Washer",
+      "Air Conditioning"
+    ],
+    "host": {
+      "host_name": "Host_508",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=12"
+    },
+    "price": 291,
+    "thumbnail_url": "https://picsum.photos/300/200?random=48",
+    "rating": 4.1
+  },
+  {
+    "name": "Charming Apt in Charlestown #49",
+    "description": "A comfy place in Charlestown, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Elevator",
+      "Heating",
+      "Hot Tub",
+      "Pet Friendly",
+      "Essentials",
+      "Washer",
+      "Wi-Fi"
+    ],
+    "host": {
+      "host_name": "Host_511",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=58"
+    },
+    "price": 170,
+    "thumbnail_url": "https://picsum.photos/300/200?random=49",
+    "rating": 4.9
+  },
+  {
+    "name": "Charming Apt in Beacon Hill #50",
+    "description": "A comfy place in Beacon Hill, close to transit and cafes. Great for students and visitors.",
+    "amenities": [
+      "Hot Tub",
+      "Air Conditioning",
+      "Elevator",
+      "Washer",
+      "Essentials",
+      "Wi-Fi"
+    ],
+    "host": {
+      "host_name": "Host_190",
+      "host_thumbnail_url": "https://i.pravatar.cc/40?img=32"
+    },
+    "price": 123,
+    "thumbnail_url": "https://picsum.photos/300/200?random=50",
+    "rating": 4.8
+  }
+]
