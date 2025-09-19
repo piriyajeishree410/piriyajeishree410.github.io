@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boston Stays</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with Navigation -->
+  <header>
+    <nav>
+      <div class="logo">
+        <span class="logo-icon">📕</span>
+        <span>My Boston Journal</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="assignment1.html">Notes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <h1 class="main-header">Boston Airbnb Stays</h1>
+    <section id="airbnb-listings" class="airbnb-section">
+      <p>As an international student, I know how important it is to find the perfect place to stay. Here are some great Airbnb options in Boston for visitors and newcomers alike.</p>
+      
+      <div class="filter-controls">
+        <select id="sort-by">
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="rating-desc">Highest Rated</option>
+        </select>
+        <input type="text" id="search-input" placeholder="Search listings...">
+      </div>
+
+      <div id="listings-container" class="listings-container">
+        <div class="loading">Loading Airbnb listings...</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fixed Position Element -->
+  <div class="fixed">Top⬆️</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>My Boston Journal &copy; 2025 | An International Student's Perspective</p>
+    <p>Follow my journey as I explore academics, culture, and personal growth in this historic city.</p>
+  </footer>
+
+  <!-- Airbnb Listings Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const listingsContainer = document.getElementById('listings-container');
+      const sortSelect = document.getElementById('sort-by');
+      const searchInput = document.getElementById('search-input');
+      
+      let allListings = [];
+
+      async function fetchListings() {
+        try {
+          const response = await fetch('./data/airbnb_listings.json');
+          const data = await response.json();
+          return data.slice(0, 50);
+        } catch (error) {
+          console.error('Error fetching listings:', error);
+          listingsContainer.innerHTML = '<div class="loading">Error loading listings. Please try again later.</div>';
+          return [];
+        }
+      }
+
+      function displayListings(listings) {
+        if (listings.length === 0) {
+          listingsContainer.innerHTML = '<div class="loading">No listings found matching your criteria.</div>';
+          return;
+        }
+
+        listingsContainer.innerHTML = '';
+
+        listings.forEach(listing => {
+          const listingCard = document.createElement('div');
+          listingCard.className = 'listing-card';
+
+          const amenitiesList = listing.amenities.slice(0, 3).map(amenity => 
+            `<span class="amenity-tag">${amenity}</span>`
+          ).join('');
+
+          const rating = listing.rating || (4 + Math.random()).toFixed(1);
+          const stars = '★'.repeat(Math.floor(rating)) + '☆'.repeat(5 - Math.floor(rating));
+
+          listingCard.innerHTML = `
+            <img src="${listing.thumbnail_url || 'https://via.placeholder.com/300x200?text=No+Image'}" 
+                 alt="${listing.name}" class="listing-img"
+                 onerror="this.src='https://via.placeholder.com/300x200?text=Image+Not+Found'">
+            <div class="listing-content">
+              <h3 class="listing-title">${listing.name}</h3>
+              <div class="listing-host">
+                <img src="${listing.host.host_thumbnail_url || 'https://via.placeholder.com/40?text=H'}" 
+                     alt="${listing.host.host_name}" class="host-img"
+                     onerror="this.src='https://via.placeholder.com/40?text=H'">
+                <span class="host-name">${listing.host.host_name}</span>
+              </div>
+              <div class="listing-price">$${listing.price} / night</div>
+              <div class="rating">
+                <span class="star">${stars}</span> ${rating}
+              </div>
+              <p class="listing-description">${listing.description || 'No description available.'}</p>
+              <div class="amenities-title">Amenities:</div>
+              <div class="amenities-list">
+                ${amenitiesList}
+                ${listing.amenities.length > 3 ? '<span class="amenity-tag">+' + (listing.amenities.length - 3) + ' more</span>' : ''}
+              </div>
+            </div>
+          `;
+          listingsContainer.appendChild(listingCard);
+        });
+      }
+
+      function filterAndSortListings() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const sortValue = sortSelect.value;
+
+        let filtered = allListings.filter(listing => 
+          listing.name.toLowerCase().includes(searchTerm) || 
+          (listing.description && listing.description.toLowerCase().includes(searchTerm)) ||
+          listing.host.host_name.toLowerCase().includes(searchTerm)
+        );
+
+        switch(sortValue) {
+          case 'price-asc':
+            filtered.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
+            break;
+          case 'price-desc':
+            filtered.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
+            break;
+          case 'rating-desc':
+            filtered.sort((a, b) => parseFloat(b.rating || 0) - parseFloat(a.rating || 0));
+            break;
+        }
+
+        displayListings(filtered);
+      }
+
+      async function init() {
+        allListings = await fetchListings();
+        displayListings(allListings);
+        sortSelect.addEventListener('change', filterAndSortListings);
+        searchInput.addEventListener('input', filterAndSortListings);
+      }
+      init();
+    });
+  </script>
+</body>
+</html>
